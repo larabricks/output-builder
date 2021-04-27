@@ -1,0 +1,22 @@
+{
+    "name": "larabricks/output-builder",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessio Farinelli",
+            "email": "alessio.farinelli.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^5.2.41"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larabricks\\": "/src"
+        }
+    }
+}
