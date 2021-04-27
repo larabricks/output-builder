@@ -73,9 +73,9 @@ class OutputBuilder
      */
     public static function _filter( array|null $data, array $dto = null, string $InputType = InputType::LIST ): array|null
     {
-        if ( $InputType === InputType::ITEM ) $data = [ $data ];
         if ( !isset($dto) ) return $data;
         if ( !isset($data) ) return [];
+        if ( $InputType === InputType::ITEM ) $data = [ $data ];
         $result = [];
         foreach ($data as $item) {
             $result[] = OutputBuilder::_filterArray($dto, $item ?? []);
