@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Enums;
+namespace Larabricks\Enums;
 
 class InputType
 {
