@@ -4,7 +4,7 @@ namespace Larabricks\OutputBuilder;
 
 use Larabricks\Enums\ErrorStrings;
 use Larabricks\Enums\InputType;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Response;
 
 class OutputBuilder
 {
