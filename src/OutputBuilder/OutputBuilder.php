@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Utilities\OutputBuilder;
+namespace Larabricks\OutputBuilder;
 
-use Larabricks\Enums\ErrorStrings;
-use Larabricks\Enums\InputType;
+use App\Enums\ErrorStrings;
+use App\Enums\InputType;
 use Symfony\Component\HttpFoundation\Response;
 
 class OutputBuilder
